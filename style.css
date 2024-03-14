@@ -1,0 +1,105 @@
+/*ESERCIZIO 1*/
+
+.jumbotron .col-md-6 .display-4{
+    color: red
+}
+
+/*ESERCIZIO 2*/
+
+nav > *{
+    color: green;
+}
+
+nav > span{
+    background-color: yellow;
+}
+
+/*ESERCIZIO 3*/
+
+.lead.mb-0 a{
+    color: rgb(255, 0, 106);
+}
+
+
+/*ESERCIZIO 4*/
+
+.pb-4 + div {
+    background-color: aqua;
+}
+
+
+/*ESERCIZIO 5*/
+
+hr {
+    background-color: red;
+}
+
+
+/*ESERCIZIO 6*/
+
+.blog-pagination a:nth-child(even) {
+    color: white;
+    background-color: black;
+}
+
+/*ESERCIZIO 7*/
+
+.list-unstyled.mb-0 li {
+    border: 1px solid black;
+    padding: 5px;
+    margin:2px
+}
+
+/*ESERCIZIO 8*/
+
+.blog-post:nth-child(3) .blog-post-meta a {
+    color: red;
+}
+
+/*ESERCIZIO 9*/
+
+.blog-post:nth-child(4) ul li:nth-child(2) {
+    color: green;
+}
+
+/*ESERCIZIO 10*/
+
+footer + a {
+    color: blue;
+    background-color: yellowgreen;
+}
+
+/*ESERCIZIO 11*/
+
+.blog-pagination a:last-child{
+    width: 200px;
+}
+
+/*ESERCIZIO 12*/
+
+footer p a:last-child {
+    color: brown;
+}
+
+
+/*Esercitazioni con il prof*/
+
+ul.test-list {
+    list-style: none;
+    padding: 0;
+}
+
+ul.test-list li{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+
+}
+
+ul.test-list li::before {
+    content: "";
+    display: inline-block;
+    list-style: square;
+    
+
+}
